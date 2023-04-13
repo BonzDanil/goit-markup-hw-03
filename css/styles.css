@@ -426,7 +426,7 @@ font-size: 18px;
 line-height: 21px;
 /* identical to box height, or 117% */
 
-display: flex;
+
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -439,3 +439,8 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
+  
+  .logo-studio-footer {
+    display: inline-block;
+  }
