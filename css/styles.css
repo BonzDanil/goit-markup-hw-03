@@ -89,7 +89,9 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
 
+    margin-right: 76px;
     
+    margin-bottom: 16px; 
 }
 
 .logo-studio {
@@ -103,7 +105,6 @@ body {
     color: #2E2F42;
 
     margin-right: 76px;
-
 }
 
 .menu-link {
@@ -309,9 +310,9 @@ body {
 }
 
 .logo-footer {
-    display: inline-block;
-   display: flex;
-    justify-content: flex-start;
+    
+    
+
 }
 
 .footer {
@@ -337,7 +338,9 @@ body {
     text-transform: uppercase;
     color: #F4F4FD;
 }
-
+.cont-footer{
+   
+}
 
 
 .first-section {
@@ -362,6 +365,7 @@ body {
     background-color: #F4F4FD;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
+    padding: 12px 24px;
 }
 
 .buttons:hover,
