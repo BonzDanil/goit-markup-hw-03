@@ -34,7 +34,7 @@ button {
 }
 
 .container {
-    width: 1258px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -56,12 +56,14 @@ body {
     color: #2E2F42;
 
     margin-bottom: 8px;
+    text-align: center;
 }
 
 /* HEADER */
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .page-header-cont {
@@ -71,6 +73,7 @@ body {
 
 .navigation {
     display: flex;
+    align-items: center;
 }
 
 .logo-web {
@@ -82,6 +85,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+
+    margin-right: 76px
 }
 
 .logo-studio {
@@ -105,6 +110,8 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     font-family: 'Roboto';
+
+    padding: 24px 0;
 
 }
 
@@ -161,7 +168,10 @@ body {
 }
 
 /* First section */
-.first-section {}
+.first-section {
+    padding: 188px 0;
+    text-align: center;
+}
 
 .main-button {
     font-style: normal;
@@ -176,6 +186,12 @@ body {
 
     padding: 16px 32px 16px 32px;
     min-width: 170px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 490px;
 }
 
 .main-button:hover,
@@ -190,13 +206,19 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left: 350px;
 }
 
 /* CHARACTERISTIC */
+.second-section {
+    padding: 120px 0;
+}
+
 .characteristic-list {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .characteristic-list :not(:last-child) {
@@ -210,7 +232,11 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 
+    text-align: center; 
+}
 
+.number-list-character {
+    width: calc((100% - 72px) / 4);
 }
 
 /* WHAT ARE WE DOING */
@@ -240,34 +266,49 @@ body {
     margin-bottom: 72px;
 }
 
+.doing-list-number {
+    width: calc((100% - 48px) / 3);
+}
+
 /* OUR TEAM */
+.our-team {
+    padding: 120px 0;
+}
+
 .our-team-list {
     display: flex;
     background-color: #FFFFFF;
-    padding-bottom: 120px;
+
+}
+
+.our-team-list {
+    gap: 24px;
 }
 
 .first-list-punkt :not(:last-child) {
     margin-right: 24px;
 }
 
+.characteristic-team {
+    padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
+}
+
 .first-list-punkt {
     text-align: center;
+    width: calc((100% - 72px) / 4);
 }
 
 /* FOOTER */
 .footer {
     background: #2E2F42;
-
-}
-
-.cont-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 }
 
 .logo-footer {
-    margin-bottom: 17px;
+    display: inline-block;
+    margin-bottom: 16px;
+    justify-content: center;
 }
 
 .footer {
@@ -309,13 +350,14 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 12px 24px;
     gap: 24px;
     background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    border: 1px solid #e7e9fc;
     border-radius: 4px;
 }
 
@@ -323,6 +365,7 @@ body {
 .buttons:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .four-section {
@@ -335,49 +378,44 @@ body {
 
 /* PORTFOLIOHERO */
 .hero {
-    /* background-color: aqua; */
+    padding: 96px 0 120px;
 }
 
 .buttons-list {}
 
 .porfolio-button {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    gap: 24px;
+    margin-bottom: 72px;
+    justify-content: center;
+    
 }
 
-.porfolio-button :not(:last-child) {
-    margin-right: 24px;
-}
 
 .portfolio-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.container-port {
-    max-height: 2592px;
-    background: #FFFFFF;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 
-.portfolio-list{
+.portfolio-list {
     padding-bottom: 120px;
-  }
+}
 
-  .list-project{
-    min-width: 360px;
-    margin-right: 24px;
-    margin-bottom: 48px;
-  }
+.list-project {
+    width: calc((100% - 48px) / 3);
 
-  .project-img{
+}
+.portfolio-img-character{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.project-img {
     margin-bottom: 32px;
-  }
+}
