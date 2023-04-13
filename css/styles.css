@@ -304,22 +304,15 @@ body {
 }
 
 /* FOOTER */
-.footer {
-    background: #2E2F42;
-    padding: 100px 0;
-}
 
-.logo-footer {
-    
-    
-
-}
 
 .footer {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    background: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-p {
@@ -424,4 +417,25 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+.logo-footer{
+    display: inline-block;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
 
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
