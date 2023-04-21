@@ -330,9 +330,6 @@ body {
     text-transform: uppercase;
     color: #F4F4FD;
 }
-.cont-footer{
-   
-}
 
 
 .first-section {
@@ -347,10 +344,6 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
 
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 24px;
     background-color: #F4F4FD;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
